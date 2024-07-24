@@ -1,6 +1,13 @@
 # Active-Directory
-(youtube video here)<br>
-Active Directory purpose is to provided a centerizled and to secure company information, user information and other accounts/ files. The key functions are: managing user accounts, sercuirty and access control of reasouces, file and applications for those that recived permission, signle sign on gives permission for users to use a single user name and passowrd to access company applications/ files. <br>
-<h1>To learn more in depth of Active Directory:</h1>
+(video tutorial here)<br>
+Microsoft Active Directory (AD) is a directory service designed to simplify network management for organizations. Operating on Windows Server, AD efficiently stores and organizes information about network components, including users, devices, and services. It provides convenient access to this information for both administrators and users. Furthermore, AD allows administrators to regulate permissions, manage access to network resources, and create security policies, thus optimizing the overall network management process. <br>
+<h2>Technologies used</h2>
+-Microsoft Azure <br>
+-Remote Desktop <br>
+-Active Directory Domain <br>
+-PowerShell
+<h2>Operating System used</h2>
+- Windows 10
+<h2>To learn more in depth of Active Directory:</h2>
 
 ### [Microsoft Learning Center](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
