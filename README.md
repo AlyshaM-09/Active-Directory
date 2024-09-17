@@ -11,7 +11,7 @@ Microsoft Active Directory (AD) is a directory service designed to simplify netw
 -PowerShell
 
 <h2>Operating System used</h2>
-- Windows 10
+- Windows 10 <br>
 - Windows Server
 
 <h2>Configuration Steps</h2>
