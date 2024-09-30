@@ -12,19 +12,18 @@ Microsoft Active Directory (AD) is a directory service designed to simplify netw
 
 <h2>Operating System used</h2>
 - Windows 10 <br>
-- Windows Server
+- Windows Server <br>
+
+<h2>Steps setting up in Azure</h2>
+In demostration, the NIC in the domain controler need to be set to static. The client computer needs to be set in the virtual network. There is a seperate section in Azure to create the virtual network. In the clients computer, pull up Powershell and type in ipconfic/ all. Here the DNS should show the Domain Controler IP address. 
 
 <h2>Configuration Steps</h2>
 (photo here) <br>
-In the Domain Control, downlaod the Active Diretory Domain Services: setup new forest with the domain name (in the work place it can be the company or department name), restart and log back in with the domain name. <br>
+In the Domain Control, download the Active Diretory Domain Services: setup new forest with the domain name (in the work place it can be the company or department name), restart and log back in with the domain name. <br>
 (photo here) <br>
 Here, create Domain Adim users by creating new Organizational Units. For sake of the tutorial use the name _EMPLOYEES and _ADMIN. The new employee would have their name and permissions listed under _EMPLOYEES or _ADMIN. Log out and log back in as the new employee. <br>
 (photo here) <br>
 Add the client-1 Virtual Machine into the domain. After restarting, the client-1 should show up in the Active Directory Users and Computers (ADUC). Drag the account to _CLIENTS. Under _CLIENTS will have non admin permissions, by logging into client-1 as admin (mydomain.com/jane_a). <br>
-
-<h2>Common Password Issues and How to fix it</h2>
-
-
 
 <h2>To learn more in depth of Active Directory:</h2>
 
