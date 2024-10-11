@@ -15,7 +15,7 @@ Microsoft Active Directory (AD) is a directory service designed to simplify netw
 - Windows Server <br>
 
 <h2>Steps setting up in Azure</h2>
-In demostration, the NIC in the domain controler need to be set to static. The client computer needs to be set in the same virtual network. There is a seperate section in Azure to create the virtual network. In the clients computer, pull up Powershell and type in ipconfic/ all. Here the DNS should show the Domain Controler IP address. 
+In demostration, the NIC in the domain controler need to be set to static. The client computer needs to be set in the same virtual network. There is a seperate section in Azure to create the virtual network. To check connectivty turn off firewall in the domain controller. In the clients computer, pull up Powershell and type in ipconfic/ all. Here the DNS should show the Domain Controler IP address. 
 
 <h2>Configuration Steps</h2>
 (photo here) <br>
