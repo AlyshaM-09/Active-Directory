@@ -17,7 +17,10 @@ Microsoft Active Directory (AD) is a directory service designed to simplify netw
 <h2>Steps setting up in Azure</h2>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/e0b19458-0154-43b3-8b12-9cd0f2a66eed" height="50%" width="50%" alt="step one"/> <br>
-In demostration, the NIC in the domain controler need to be set to static. The client computer needs to be set in the same virtual network. There is a seperate section in Azure to create the virtual network. To check connectivty turn off firewall in the domain controller. In the clients computer, pull up Powershell and type in ipconfic/ all. Here the DNS should show the Domain Controler IP address. 
+The Virtual machines has to sit in the same reasource group and same virtual netowrk to be connected. the virual network can be created seperatly. The Domain Controler will have Windows Server 2022 as the client computer will be in the windows 10. Windows server 2022 has access to the server manager. This will be in use later in the steps.
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/2ab69638-e3f0-411b-8460-cbbbaa594f96" height="50%" width="50%" alt="step one"/> <br> 
+In demostration, the NIC in the domain controler need to be set to static and the DNS of the client VM needs to be on the same DNS. To check connectivty turn off firewall in the domain controller. In the clients computer, pull up Powershell and type in ipconfic/ all. Here the DNS should show the Domain Controler IP address. 
 
 <h2>Configuration Steps</h2>
 <p align="center">
